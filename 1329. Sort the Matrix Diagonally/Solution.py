@@ -1,25 +1,20 @@
 class Solution:
     def diagonalSort(self, mat: list[list[int]]) -> list[list[int]]:
 
-        # print(mat)
-
+        # Iterates over first row
         for j in range(len(mat[0])):
-            # print(j)
             self.sort(mat, 0, j)
-        # print(len(mat))
+        # Iterates over first column
         for i in range(1, len(mat)):
-            # print(i)
             self.sort(mat, i, 0)
-        
-        # print(mat)
         
         return mat
     
     def sort(self, mat, x, y):
 
-        # print(x, y)
         values = []
 
+        # Get all the values of the current diagonal matrix
         i = x
         j = y
         while i < len(mat) and j < len(mat[i]):
@@ -27,10 +22,10 @@ class Solution:
             i += 1
             j += 1
 
-        # print(values)
-
+        # using python inbuilt sort
         values.sort()
 
+        # replacing sorted values back into the matrix
         i = x
         j = y
         while i < len(mat) and j < len(mat[i]):
