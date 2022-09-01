@@ -1,1 +1,1 @@
-### https://leetcode.com/problems/palindrome-linked-list/
+### https://leetcode.com/problems/count-good-nodes-in-binary-tree/
