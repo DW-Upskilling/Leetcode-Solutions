@@ -1,1 +1,1 @@
-### https://leetcode.com/problems/stamping-the-sequence/
+### https://leetcode.com/problems/decode-ways/
