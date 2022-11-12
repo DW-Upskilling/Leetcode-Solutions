@@ -1,5 +1,6 @@
 {
     "recommendations": [
-        "VisualStudioExptTeam.vscodeintellicode"
+        "visualstudioexptteam.vscodeintellicode",
+        "ms-python.python"
     ]
 }
