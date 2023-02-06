@@ -1,6 +1,6 @@
 {
-    "recommendations": [
-        "visualstudioexptteam.vscodeintellicode",
-        "ms-python.python"
-    ]
+	"recommendations": [
+		"visualstudioexptteam.vscodeintellicode",
+		"ms-python.python"
+	]
 }
